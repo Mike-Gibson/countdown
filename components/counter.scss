@@ -1,0 +1,23 @@
+.container {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number {
+  color: #c51616;
+  font-family: 'Lcd';
+  font-size: 1em;
+  text-shadow: 0 0 25px #c51616, 0 0 5px #c51616;
+}
+
+.unit {
+  color: #a70f0f;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.25em;
+  margin-top: -0.5em;
+  text-transform: uppercase;
+  // text-shadow: 0 0 25px #c51616, 0 0 5px #c51616;
+}

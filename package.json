@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Mike-Gibson/countdown#readme",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "countdown-js": "^1.0.2",
     "next": "^9.0.6",
     "next-images": "^1.2.0",
     "node-sass": "^4.12.0",
