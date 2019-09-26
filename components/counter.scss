@@ -7,17 +7,16 @@
 }
 
 .number {
-  color: #c51616;
+  color: #FF0043;
   font-family: 'Lcd';
   font-size: 1em;
-  text-shadow: 0 0 25px #c51616, 0 0 5px #c51616;
+  text-shadow: 0 0 0.25em #FF0043, 0 0 0.05em #FF0043;
 }
 
 .unit {
-  color: #a70f0f;
+  color: #FF0043;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.25em;
   margin-top: -0.5em;
   text-transform: uppercase;
-  // text-shadow: 0 0 25px #c51616, 0 0 5px #c51616;
 }
