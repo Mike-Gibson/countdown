@@ -9,5 +9,21 @@ module.exports = (phase) => {
     assetPrefix: (phase === PHASE_EXPORT || phase === PHASE_PRODUCTION_BUILD)
       ? '/countdown'
       : '',
+    webpack (config) {
+      config.module.rules.push({
+        test: /\.ttf$/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 100000,
+            publicPath: './',
+            outputPath: 'static/',
+            name: '[name].[ext]'
+          }
+        }
+      });
+  
+      return config;
+    }
   }));
 }

@@ -1,3 +1,9 @@
-.text {
-  color: red;
+.container {
+  position: absolute;
+  width: 100%;
+  top: 60vh;
+  height: 20vh;
+  font-size: 15vh;
+  display: flex;
+  justify-content: center;
 }
