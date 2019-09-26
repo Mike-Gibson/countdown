@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "export": "npm run build && next export -o docs",
     "start": "next start"
   },
   "repository": {
@@ -19,7 +20,9 @@
   },
   "homepage": "https://github.com/Mike-Gibson/countdown#readme",
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "next": "^9.0.6",
+    "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },

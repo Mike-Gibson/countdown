@@ -1,16 +1,8 @@
 import { NextPage } from 'next'
+import { Countdown } from '../components/countdown';
 
-interface Props {
-  userAgent?: string
-}
-
-const Page: NextPage<Props> = ({ userAgent }) => (
-  <main>Your user agent: {userAgent}</main>
+const Page: NextPage<{}> = () => (
+  <Countdown />
 )
-
-Page.getInitialProps = async ({ req }) => {
-  const userAgent = req ? req.headers['user-agent'] : navigator.userAgent
-  return { userAgent }
-}
 
 export default Page
