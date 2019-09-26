@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "export": "npm run build && next export -o docs",
+    "export": "rm -rf .next && next build && next export -o docs",
     "start": "next start"
   },
   "repository": {
