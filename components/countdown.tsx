@@ -17,7 +17,7 @@ export class Countdown extends React.Component<{}, IState> {
   state = { days: 99, hours: 99, minutes: 99, seconds: 99 };
 
   componentDidMount() {
-    const end = new Date('2022-06-26 01:00:00Z');
+    const end = new Date('2022-06-26T01:00:00Z');
 
     const timer = countdown.timer(
       end,
